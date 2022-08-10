@@ -1,0 +1,19 @@
+{
+  "name": "circleup",
+  "version": "1.0.0",
+  "description": "It is a project like of rozee.pk, where a user can upload his/her CV and a recruiter can view users of specific fields and can contact them.",
+  "main": "nodemon index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahzad Ali",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

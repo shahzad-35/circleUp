@@ -1,0 +1,36 @@
+</head>
+<header class="main-header">
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand" style="font: 1.5em sans-serif;">
+                <i class="fa-brands fa-ups"></i> &nbsp;
+                CircleUp
+            </a>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-3">
+                        <a href="/home" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="" class="nav-link active">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="" class="nav-link active">
+                            Contact
+                        </a>
+                    </li>
+                    <% if (login) { %>
+                        <li class="nav-item mr-3">
+                            <a href="/login" class="nav-link active">
+                                Login
+                            </a>
+                        </li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+</header>

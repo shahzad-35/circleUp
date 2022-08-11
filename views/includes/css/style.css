@@ -17,8 +17,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Candal', serif;
-  color: #5c5b5b;
   margin: 5px;
 }
 
@@ -55,15 +53,17 @@ a {
 
 .text-input {
   padding: .7rem 1rem;
-  display: block;
   width: 100%;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  outline: none;
-  color: #444;
   line-height: 1.5rem;
-  font-size: 1.2em;
-  font-family: 'Lora', serif;
+}
+
+.search-bar{
+  width: 95%;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+  margin: 10px 0px 0px 28px;
+  padding-top: 10px;
 }
 
 .msg {
@@ -181,7 +181,7 @@ header .menu-toggle {
   margin: 60px auto;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .post-slider .next {

@@ -181,29 +181,30 @@ header .menu-toggle {
   margin: 60px auto;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+  padding-top: 23px;
   font-size: 3rem;
 }
 
 .post-slider .next {
   position: absolute;
-  top: 50%;
-  right: 20%;
-  font-size: 2em;
-  color: #006669;
+  top: 54%;
+  right: 14%;
+  font-size: 3em;
+  color: #232a2a;
   cursor: pointer;
 }
 
 .post-slider .prev {
   position: absolute;
-  top: 50%;
-  left: 20%;
-  font-size: 2em;
-  color: #006669;
+  top: 54%;
+  left: 14%;
+  font-size: 3em;
+  color: #232a2a;
   cursor: pointer;
 }
 
 .post-slider .post-wrapper {
-  width: 54%;
+  width: 61%;
   height: 350px;
   margin: 0px auto;
   overflow: hidden;
@@ -211,8 +212,8 @@ header .menu-toggle {
 }
 
 .post-slider .post-wrapper .post {
-  width: 300px;
-  height: 330px;
+  max-width: 263px;
+  height: 250px;
   margin: 0px 10px;
   display: inline-block;
   background: white;
@@ -227,9 +228,9 @@ header .menu-toggle {
 
 .post-slider .post-wrapper .post .slider-image {
   width: 100%;
-  height: 200px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 20px 20px 20px 20px;
 }
 
 /* CONTENT */
@@ -257,8 +258,8 @@ header .menu-toggle {
 }
 
 .content .main-content .post {
-  width: 95%;
-  height: 270px;
+  max-width:50%;
+  max-height:50%;
   margin: 20px auto;
   border-radius: 5px;
   background: white;

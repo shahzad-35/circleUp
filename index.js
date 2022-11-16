@@ -11,6 +11,7 @@ app.use(userRoutes)
 app.use(homeRoutes)
 
 app.set('view engine', 'ejs');
+
 app.set('views', 'views');
 
 app.listen(3000, function () {
